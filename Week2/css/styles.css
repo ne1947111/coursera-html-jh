@@ -34,36 +34,22 @@ p {
 
 section {
     border:	1px solid black;
-    border-radius: 20px;
 	background-color: #FFFFFFBB;
     width: 100%;
-    padding:10px;
-    padding-top:10px;
-    padding-right:5px;
+  
     height: 300px;
     font-size:100%;
 	font-family: Archivo, Trebuchet MS, Helvetica, sans-serif;
 	color: black;
 	position: relative;
-	overflow: auto;
-}
+  overflow: auto;
+  background-color: #999999BB;
 
-section.bfv{
-    background-color: #7ab5e699;
-}
-
-section.cod{
-    background-color: #cc8f9c99;
-}
-
-section.fc5{
-    background-color: #73c97899;
 }
 
 .topright{
     border: 1px solid black;
     color:white;
-    border-radius:10px;
 	text-align: center;
 	width: 30%;
 	margin-left: 70%;
@@ -72,7 +58,7 @@ section.fc5{
     font-size: 120%;
 	margin-bottom: 0;
 	margin-top: 0;
-    padding: 5px;
+    padding: 5px
 }
 
 
