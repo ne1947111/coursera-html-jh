@@ -1,0 +1,24 @@
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Medium.woff') format('woff'),
+        url('Roboto-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #1a1a1a;
+    background-color:#729BD7;
+}
+
+
+.main-section {
+    background-color: #AFC3D5;
+    box-shadow: 0 0 50px #2A3E50;
+    padding: 100px;
+    margin:100px;
+    text-align: center;
+}
