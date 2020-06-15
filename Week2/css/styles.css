@@ -6,8 +6,9 @@
 
 h1 {
     margin-top:7%;
-	font-family: 'Rubik','Bookman','Candara';
-	color: #000000;
+	font-family: "Comic Sans MS", "Comic Sans", 'Rubik','Bookman','Candara';
+  color: #000000;
+  font-weight:700;
 	text-align: center;
 }
 
@@ -37,10 +38,10 @@ section {
     border:	2px solid black;
 	background-color: #FFFFFFBB;
     width: 100%;
-  
+  font-weight:500;
     height: 300px;
-    font-size:100%;
-	font-family: Archivo, Trebuchet MS, Helvetica, sans-serif;
+    font-size:120%;
+	font-family: "Comic Sans MS", "Comic Sans", "Archivo", "Trebuchet MS", "Helvetica", sans-serif;
 	color: black;
 	position: relative;
   overflow: auto;
@@ -51,13 +52,13 @@ section {
 .topright{
     border: 2px solid black;
     z-index: 2;
-    color:white;
+    color:black;
 	text-align: center;
 	width: 30%;
 	margin-left: 70%;
-	font-family: Roboto, Lucida Sans Unicode, Lucida Grande, sans-serif;
+	font-family: "Comic Sans MS", "Comic Sans", Roboto, Lucida Sans Unicode, Lucida Grande, sans-serif;
     font-weight: bold;
-    font-size: 120%;
+    font-size: 110%;
 	margin-bottom: 0;
 	margin-top: 0;
     padding: 5px
@@ -65,15 +66,17 @@ section {
 
 
 .topright.bfv{
-	background-color: #114570;
+	background-color: #d59898;
 }
 
 .topright.cod{
-	background-color: #960826;
+  color:white;
+	background-color: #c14543;
 }
 
 .topright.fc5{
-	background-color: #118018;
+	background-color: #e5d198
+  ;
 }
 
 .row {
